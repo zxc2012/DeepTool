@@ -1,0 +1,80 @@
+// .dashboard {
+//     padding: 24;
+//     background: #000;
+//     minHeight: '80vh'
+// }
+
+@spacer:            1rem;
+.btnCtrls {
+  .ant-btn {
+    & + .ant-btn {
+      margin-left: 10px;
+    }
+  }
+}
+.gutter-box {
+padding: 5px 0;
+}
+
+.clear{
+display: block;
+overflow: hidden;
+}
+.center {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.y-center{
+display: flex;
+align-items: center;
+}
+
+.pull-left {
+float: left;
+}
+
+.mr-m { margin-right: @spacer * 1 !important;  }
+
+.text-2x{
+    font-size: 2rem;
+  }
+
+  .text-danger,
+.text-danger-hover a:hover {
+  color: #f44455 !important;
+}
+
+.add-patient {
+  position: absolute;
+  right: 32px;
+  top: 32px;
+  font-size: large;
+}
+
+// .ant-btn-circle.ant-btn-lg, .ant-btn-circle-outline.ant-btn-lg {
+//   min-width: 70px;
+//   border-radius: 50%;
+//   min-height: 70px;
+// }
+.tip {
+  margin-top: 20px;
+  font-size: 24px;
+  font-weight: 800;
+}
+.pieList {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+.pie {
+  flex: 1;
+}
+.lineList {
+  margin-top: 120px;
+  display: flex;
+  justify-content: space-between;
+}
+.line {
+  flex: 1;
+}

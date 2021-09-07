@@ -1,0 +1,102 @@
+.personal-info {
+    .avatar {
+        float: left;
+        width: 30%;
+        margin-right: 20px;    //形成20px的间隔
+    }
+    .info {
+        overflow: hidden; //通过设置overflow: hidden来触发BFC特性
+        .name {
+            padding-left: 20px;
+            padding-top: 20px;
+            font-family: KaiTi;
+            font-size: 80px;
+        }
+        .dividing-line {
+            border: 3px solid;
+        }
+        .other-info {
+            font-size: 25px;
+            font-family: KaiTi;
+            .gender {
+                padding-left: 20px;
+                float: left;
+                width: 40%;
+            }
+            .age {
+                padding-left: 20px;
+                float: left;
+                width: 40%;
+                
+            }
+        }
+    }
+}
+.record-title {
+    font-size: 25px;
+    text-align: center;
+}
+
+.mark-ct {
+    background:url(/images/login-background.jpg) no-repeat center;
+}
+.analysisPicture {
+  text-align: center;
+}
+.analysisContainer {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.analysisTable {
+  flex: 2;
+  margin-top: 60px;
+  th, td {
+    text-align: center;
+  }
+}
+.analysisPie {
+  flex: 2.5;
+}
+.analysisBtnCtrl {
+  margin-top: 20px;
+  text-align: center;
+  .ant-btn-primary {
+    margin-left: 30px;
+  }
+}
+.analysisSelect {
+  margin-top: 20px;
+  text-align: center;
+  .ant-select {
+    width: 200px;
+  }
+}
+.status {
+  border: 1px solid #ccc;
+  padding: 6px 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .icon {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background-color: red;
+  }
+}
+.reportTable {
+  width: 60%;
+  th, td {
+    text-align: center;
+    padding: 6px 12px;
+  }
+}
+.ctForm {
+  .ant-form-item {
+    margin-bottom: 0;
+    .ant-form-item-control {
+      // line-height: 30px;
+    }
+  }
+}

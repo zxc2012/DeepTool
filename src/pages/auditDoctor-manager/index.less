@@ -1,0 +1,39 @@
+.personal-info {
+    .avatar {
+        float: left;
+        width: 30%;
+        margin-right: 20px;    //形成20px的间隔
+    }
+    .info {
+        overflow: hidden; //通过设置overflow: hidden来触发BFC特性
+        .name {
+            padding-left: 20px;
+            padding-top: 20px;
+            font-family: KaiTi;
+            font-size: 80px;
+        }
+        .dividing-line {
+            border: 3px solid;
+        }
+        .other-info {
+            font-size: 25px;
+            font-family: KaiTi;
+            .gender {
+                padding-left: 20px;
+                float: left;
+                width: 40%;
+            }
+            .age {
+                padding-left: 20px;
+                float: left;
+                width: 40%;
+                
+            }
+        }
+    }
+}
+
+.record-title {
+    font-size: 25px;
+    text-align: center;
+}
